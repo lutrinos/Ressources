@@ -45,6 +45,13 @@ py clean.py
   - [Traducteur de code Morse](/demos/morse.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
+## Project Euler
+Quelques solutions au Project Euler réalisées par-ci par-là 
+
+1. Multiples of 3 or 5
+2. Even Fibonacci Numbers
+3. Largest Prime Factor
+
 ## TODO
 - Tri topologique
 - Huffman coding
