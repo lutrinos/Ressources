@@ -64,6 +64,9 @@ Quelques solutions au Project Euler réalisées par-ci par-là
 2. Even Fibonacci Numbers
 3. Largest Prime Factor
 4. Largest Palindrome Product
+5. Smallest Multiple
+6. Sum Square Difference
+7. 10 001st Prime
 
 ## TODO
 
