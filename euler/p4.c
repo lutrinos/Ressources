@@ -14,7 +14,6 @@ bool est_palindrome(int n) {
 
 int main() {
     int n = 999;
-
     int max = 0;
 
     // Il y aura des duplicatas, mais compte tenu de la complexité ça va
