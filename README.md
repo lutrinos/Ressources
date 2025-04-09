@@ -1,6 +1,6 @@
 # Ressources
 
-Des ressouces en programmation en lien avec le lycée.
+Quelques ressources personnelles.
 
 ## Commandes
 
