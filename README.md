@@ -70,6 +70,7 @@ Quelques solutions au Project Euler réalisées par-ci par-là
 8. Largest Product in a Series
 9. Special Pythagorean Triplet
 10. Summation of Primes
+11. Largest Product in a Grid
 
 ## TODO
 
