@@ -71,6 +71,10 @@ Quelques solutions au Project Euler réalisées par-ci par-là
 9. Special Pythagorean Triplet
 10. Summation of Primes
 11. Largest Product in a Grid
+12. Highly Divisible Triangular Number
+13. Large Sum
+14. Longest Collatz Sequence
+15. Lattice Paths
 
 ## TODO
 
