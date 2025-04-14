@@ -58,7 +58,7 @@ py clean.py
 
 ## Project Euler
 
-Quelques solutions au Project Euler réalisées par-ci par-là
+Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pas nécessairement optmisée le plus possible, mais renvoient le résultat en un temps raisonnable.
 
 1. Multiples of 3 or 5
 2. Even Fibonacci Numbers
@@ -75,6 +75,8 @@ Quelques solutions au Project Euler réalisées par-ci par-là
 13. Large Sum
 14. Longest Collatz Sequence
 15. Lattice Paths
+16. Power Digit Sum
+17. Number Letter Counts
 
 ## TODO
 
