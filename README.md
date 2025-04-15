@@ -22,7 +22,7 @@ pip install -r requirements.txt
 pytest
 ```
 
-- Nettoyer le répertoire (les dossiers `__pycache__`)
+- Nettoyer le répertoire (les dossiers `__pycache__`, c'est purement esthétique et personnel !)
 
 ```console
 py clean.py
@@ -64,22 +64,6 @@ Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pa
 
 ## TODO
 
-- Tri topologique
-- Huffman coding
-- Algorithme de tri
-- Calcul de dérivée et de limites
-- Utilités pour les probabilités (+ loi binomiale)
-- Calculs de logarithmes
-- Alphabet phonétique de l'OTAN
-- Chiffrement César
-- Conversion d'une base à une autre
-- Solveur du jeux "Le compte est bon"
-- Chiffrement RSA
-- Tableaux d'avancement
-- Méthodes pour des opérations sur les nombres complexes
-- Calculs de vecteurs avec les nombres complexes
-- Implémentations de quelques problèmes intéressants des CG
-- Calcul d'une vitesse à partir de relevés de fréquences (effet Doppler)
-- Simulations de circuits électriques (avec dipôles RC)
-- Mécanique des fluides
-- Algorithme de Ford-Fulkerson (+ Busacker et Gowen éventuellement)
+Quelques idées, qui peuvent être intéressantes à réaliser si jamais le manque d'inspiration se faisait ressentir.
+
+[>> To-do List](./TODO.md)
