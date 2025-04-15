@@ -18,3 +18,5 @@
 17. Number Letter Counts ([C](./p17.c) | [OCaml](./p17.ml))
 18. Maximum Path Sum I ([C](./p18.c) | [OCaml](./p18.ml))
 19. Counting Sundays ([C](./p19.c) | [OCaml](./p19.ml))
+20. Factorial Digit Sum ([C](./p20.c) | [OCaml](./p20.ml))
+21. Amicable Numbers ([C](./p21.c) | [OCaml](./p21.ml))
