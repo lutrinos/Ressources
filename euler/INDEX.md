@@ -22,3 +22,5 @@
 21. Amicable Numbers ([C](./p21.c) | [OCaml](./p21.ml))
 22. Names Scores ([C](./p22.c) | [OCaml](./p22.ml))
 23. Non-Abundant Sums ([C](./p23.c) | [OCaml](./p23.ml))
+24. Lexicographic Permutations ([C](./p24.c))
+25. 1000-digit Fibonacci Number ([OCaml](./p25.ml))
