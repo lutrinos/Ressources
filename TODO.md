@@ -19,3 +19,5 @@
 - Simulations de circuits électriques (avec dipôles RC)
 - Mécanique des fluides
 - Algorithme de Ford-Fulkerson (+ Busacker et Gowen éventuellement)
+- Implémentation de Regex avec des automates
+- Solveur de séquents
