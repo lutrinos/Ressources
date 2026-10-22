@@ -15,3 +15,8 @@ Des ressouces en programmation en lien avec le lycée.
   - [Parseur d'expression mathématiques](/outils/parseur.py)
 - **Démos: des "démonstrations" de fonctionnalités utiles en python**
   - [Surcharge d'opérateurs](/demos/operators.py)
+
+# TODO
+- Résolveur d'équations du second degré
+- Vecteurs et géométrie dans l'espace
+- Trouver les coefficients de Bezout d'un nombre premier

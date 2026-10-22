@@ -39,28 +39,13 @@ def resoudre_3(eq1, eq2, eq3):
 
   inv_det = 1 / det
   
-  # On inverse les valeurs
-  a, b, c, d, e, f, g, h, i = e*i - f*h, f*g - d*i, d*h - e*g, c*h - b*i, a*i - c*g, b*g - a*h, b*f - c*e, c*d - a*f, a*e - b*d
+  # On inverse la matrice
+  a, b, c, d, e, f, g, h, i = e*i - f*h, c*h - b*i, b*f - c*e, f*g - d*i, a*i - c*g, c*d - a*f, d*h - e*g, b*g - a*h, a*e - b*d
   a, b, c, d, e, f, g, h, i = [inv_det * v for v in (a, b, c, d, e, f, g, h, i)]
 
   # On fait le produit matriciel
-  x = a*j + c*k + c*l
+  x = a*j + b*k + c*l
   y = d*j + e*k + f*l
   z = g*j + h*k + i*l
 
   return (x, y, z)
-
-print(
-  resoudre(
-    (2, -3, 1),
-    (5, 7, -3)
-  )
-)
-
-print(
-  resoudre_3(
-    (2, 1, 1, 7),
-    (1, -1, 1, 2),
-    (1, 1, -1, 0)
-  )
-)

@@ -80,5 +80,5 @@ def parse(string):
   return ast
 
 #print(parse("3 + 2 / 3"))
-print(parse("3 * (10 + (2)) / 2 + 4"))
+#print(parse("3 * (10 + (2)) / 2 + 4"))
 #print(parse("3 * (10 + (2)) / 2 + 4 = 17"))
