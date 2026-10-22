@@ -9,6 +9,7 @@ Des ressouces en programmation en lien avec le lycée.
 - **Option: Option Mathématiques expertes**
   - [Résolveur d'équations](/option/equation.py)
   - [PGCD](/option/pgcd.py)
+  - [Trouver les coefficients de Bezout de deux nombres](/option/bezout.py)
 - **Spécialité: Mathématiques spécialité**
   - [Suites arithmétiques et géométriques](/specialite/suites.py)
   - [Résolveur d'équations du second degré](/specialite/second_degre.py)
@@ -21,7 +22,6 @@ Des ressouces en programmation en lien avec le lycée.
 
 # TODO
 - Vecteurs et géométrie dans l'espace
-- Trouver les coefficients de Bezout d'un nombre premier
 - Kruskal
 - Tri topologique
 - Tri
