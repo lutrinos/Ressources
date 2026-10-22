@@ -1,20 +1,20 @@
 # Liste
-1. Multiples of 3 or 5
-2. Even Fibonacci Numbers
-3. Largest Prime Factor
-4. Largest Palindrome Product
-5. Smallest Multiple
-6. Sum Square Difference
-7. 10 001st Prime
-8. Largest Product in a Series
-9. Special Pythagorean Triplet
-10. Summation of Primes
-11. Largest Product in a Grid
-12. Highly Divisible Triangular Number
-13. Large Sum
-14. Longest Collatz Sequence
-15. Lattice Paths
-16. Power Digit Sum
-17. Number Letter Counts
-18. Maximum Path Sum I
-19. Counting Sundays
+1. Multiples of 3 or 5 ([C](./p1.c) | [OCaml](./p1.ml))
+2. Even Fibonacci Numbers ([C](./p2.c) | [OCaml](./p2.ml))
+3. Largest Prime Factor ([C](./p3,c) | [OCaml](./p3.ml))
+4. Largest Palindrome Product ([C](./p4.c) | [OCaml](./p4.ml))
+5. Smallest Multiple ([C](./p5.c) | [OCaml](./p5.ml))
+6. Sum Square Difference ([C](./p6.c) | [OCaml](./p6.ml))
+7. 10 001st Prime ([C](./p7.c) | [OCaml](./p7.c))
+8. Largest Product in a Series ([C](./p8.c) | [OCaml](./p8.ml))
+9. Special Pythagorean Triplet ([C](./p9.c) | [OCaml](./p9.ml))
+10. Summation of Primes ([C](./p10.c) | [OCaml](./p10.ml) | [Python](./p10.py))
+11. Largest Product in a Grid ([C](./p11.c) | [OCaml](./p11.ml))
+12. Highly Divisible Triangular Number ([C](./p12.c) | [OCaml](./p12.ml))
+13. Large Sum ([C](./p13.c) | [OCaml](./p13.ml))
+14. Longest Collatz Sequence ([C](./p14.c) | [OCaml](./p14.ml))
+15. Lattice Paths ([C](./p15.c) | [OCaml](./p15.ml))
+16. Power Digit Sum ([C](./p16.c) | [OCaml](./p16.ml))
+17. Number Letter Counts ([C](./p17.c) | [OCaml](./p17.ml))
+18. Maximum Path Sum I ([C](./p18.c) | [OCaml](./p18.ml))
+19. Counting Sundays ([C](./p19.c) | [OCaml](./p19.ml))
