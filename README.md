@@ -37,6 +37,7 @@ py clean.py
   - [Calcule du sinus d'un angle](/demos/sinus.py)
   - [Algorithme pour trouver les nombres premiers de 0 à n](/demos/premiers.py)
   - [Suite de Syracuse](/demos/syracuse.py)
+  - [Calcul de pi](/demos/pi.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
 
@@ -50,3 +51,4 @@ py clean.py
 - Calcul de dérivée
 - Utilités pour les probabilités
 - Utilités pour les statistiques
+- Calculs de logarithmes
