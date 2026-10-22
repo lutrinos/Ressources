@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Morse Encoder</title>
+        <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    </head>
+    
+    <style>
+    * {
+        font-family: 'ADLaM Display', sans-serif;
+        box-sizing: border-box;
+    }
+    :root {
+        --primary: #450a0a;
+        
+        --background: #fff7ed;
+        --foreground: #fef2f2;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 109px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--primary); 
+        border-radius: 10px;
+    }
+    body {
+        margin: 0;
+    }
+    .app {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        background: var(--background);
+    }
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        color: var(--primary);
+    }
+    textarea {
+        background: var(--foreground);
+        border: none;
+        outline: none;
+        resize: none;
+        padding: 12px;
+        width: 100%;
+        flex: 1 1 0%;
+        border-radius: 8px;
+    }
+    button {
+        background: var(--primary);
+        border: none;
+        outline: none;
+        color: var(--background);
+        border-radius: 8px;
+        font-size: 18px;
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: .1s ease-in;
+    }
+    button:hover {
+        filter: brightness(1.1);
+    }
+    button:active {
+        transform: scale(0.99);
+    }
+    button:disabled {
+        filter: brightness(0.8);
+        cursor: default;
+    }
+    button svg {
+        width: 32px;
+        height: 32px;
+    }
+    .output {
+        overflow-y: auto;
+        flex: 1 1 0%;
+        padding: 12px;
+        background: var(--foreground);
+        border-radius: 8px;
+        font-size: 24px;
+        font-family: monospace;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .header svg {
+        width: 36px;
+        height: 36px;
+        padding: 8px;
+        cursor: pointer;
+        background: var(--foreground);
+    }
+    </style>
+    
+    <body>
+        <div class="app">
+            <div class="header">
+                <h1>Morse Encoder</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                </svg>
+
+            </div>
+            <textarea>Hello world</textarea>
+            <div class="output"></div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+    </body>
+    
+    <script type>
+    var mode = 'encode';
+    
+    var h1 = document.querySelector('h1');
+    var textarea = document.querySelector('textarea');
+    var output = document.querySelector('.output');
+    var button = document.querySelector('button');
+    var toogle = document.querySelector('.header svg');
+    
+    var baseTime = 200;
+    
+    var map = {
+        'a': '.-',
+        'b': '-...',
+        'c': '-.-.',
+        'd': '-..',
+        'e': '.',
+        'f': '..-.',
+        'g': '--.',
+        'h': '....',
+        'i': '..',
+        'j': '.---',
+        'k': '-.-',
+        'l': '.-..',
+        'm': '--',
+        'n': '-.',
+        'o': '---',
+        'p': '.--.',
+        'q': '--.-',
+        'r': '.-.',
+        's': '...',
+        't': '-',
+        'u': '..-',
+        'v': '...-',
+        'w': '.--',
+        'x': '-..-',
+        'y': '-.--',
+        'z': '--..',
+        '1': '.----',
+        '2': '..---',
+        '3': '...--',
+        '4': '....-',
+        '5': '.....',
+        '6': '-....',
+        '7': '--...',
+        '8': '---..',
+        '9': '----.',
+        '0': '-----',
+        
+        'ß': '...--..',
+        
+        '.': '.-.-.-',
+        ',': '--..--',
+        ':': '---...',
+        ';': '-.-.-.',
+        '?': '..--..',
+        '!': '-.-.--',
+        '-': '-....-',
+        '_': '..--.-',
+        '(': '-.--.',
+        ')': '-.--.-',
+        '\'': '.----.',
+        '=': '-...-',
+        '+': '.-.-.',
+        '/': '-..-.',
+        '@': '.--.-.',
+        '&': '.-...',
+        '"': '.-..-.',
+        '¿': '..-.-',
+        '¡': '--...-',
+        '$': '...-..-'
+    };
+    
+    var reversedMap = {};
+    
+    for (var key in map) {
+        reversedMap[map[key]] = key;
+    }
+    
+    var unTranslate = (value) => {
+        var str = '';
+        
+        for (var char of value.replace(/\./g, '·').replace(/[^-·\/ ]+/g, '').split(/ +/g)) {
+            if (char === '/') {
+                str += ' ';
+            } else {
+                str += (reversedMap[char] ?? '');
+            }
+        }
+        
+        return str;
+    }
+    
+    var translate = (value) => {
+        var str = '';
+        
+        for (var char of value.toLowerCase().normalize('NFD').replace(/ +/g, ' ')) {
+            if (char === ' ') {
+                str += ' / ';
+            } else {
+                str += (map[char] ?? '') + ' ';
+            }
+        }
+        
+        return str;
+    }
+    
+    var createPlayer = (words) => {
+        var stack = [];
+        
+        for (var word of words) {
+            stack.push(['wait', baseTime * 3]);
+            for (var char of word) {
+                if (char === '-') {
+                    stack.push(['play', baseTime * 2]);
+                } else {
+                    stack.push(['play', baseTime]);
+                }
+            }
+        }
+        
+        var playSound = (duration) => {
+            var context = new AudioContext();
+            var gainNode = context.createGain();
+            var oscillator = context.createOscillator();
+        
+            oscillator.frequency.value = 650;
+            oscillator.connect(gainNode);
+            gainNode.connect(context.destination);
+            oscillator.start(0);
+            setTimeout(() => {
+                oscillator.stop();
+                playNext();
+            }, duration);
+        };
+        
+        var playNext = () => {
+            stack.shift();
+            
+            if (stack.length > 0) {
+                if (stack[0][0] === 'play') {
+                    setTimeout(() => playSound(stack[0][1]), 50);
+                } else if (stack[0][0] === 'wait') {
+                    setTimeout(() => playNext(), stack[0][1]);
+                }
+            } else {
+                button.disabled = false;
+            }
+        };
+        
+        return playNext;
+    }
+    
+    textarea.oninput = (e) => {
+        if (mode === 'encode') {
+            output.textContent = translate(e.target.value);
+        } else {
+            output.textContent = unTranslate(e.target.value);
+        }
+    }
+    
+    button.onclick = () => {
+        button.disabled = true;
+        createPlayer(
+            (mode === 'encode' ? output.textContent : textarea.value).split(/[^-·]+/g)
+        )();
+    }
+    
+    toogle.onclick = () => {
+        mode = mode === 'encode' ? 'decode' : 'encode';
+        
+        if (mode === 'decode') {
+            h1.textContent = 'Morse Decoder';
+            textarea.style.fontFamily = 'monospace';
+            output.style.fontFamily = "'ADLaM Display', sans-serif";
+        } else {
+            h1.textContent = 'Morse Encoder';
+            textarea.style.fontFamily = "'ADLaM Display', sans-serif";
+            output.style.fontFamily = "monospace";
+        }
+        
+        var i = textarea.value;
+        var o = output.textContent;
+        
+        output.textContent = i;
+        textarea.value = o;
+    }
+    
+    output.textContent = translate(textarea.value);
+    </script>
+</html>
