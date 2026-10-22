@@ -58,7 +58,11 @@ py clean.py
 
 ## Project Euler
 
-Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pas nécessairement optimisées le plus possible, mais renvoient le résultat en un temps raisonnable.
+Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pas nécessairement optimisées le plus possible, mais renvoient le résultat en un temps raisonnable, avec des explications associées éventuellement.
+
+Si vous n'avez pas la solution d'un problème, il ne sert à rien de juste regarder le code et l'exécuter,... car on n'apprend jamais mieux qu'en trouvant une solution par soi-même, ce qui est au passage beaucoup gratifiant.
+
+Conformément aux [règles du Project Euler](https://projecteuler.net/about#publish), les extraits de code ne seront partagés que pour les 100 premiers problèmes.
 
 [>> Index des programmes](./euler/INDEX.md)
 
