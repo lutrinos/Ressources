@@ -30,6 +30,7 @@ py clean.py
   - [Calculs de vecteurs](/specialite/vecteurs.py)
 - **Algorithmes: des implémentations d'algorithmes, toujours en python**
   - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
+  - [Distance de Levenshtein entre deux mots](/algorithms/levenshtein.py)
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expressions mathématiques](/outils/parseur.py)
 - **Démos: le reste !!**
@@ -46,7 +47,6 @@ py clean.py
 - Tri topologique
 - Huffman coding
 - Algorithme de tri
-- Edit distance
 - Union find
 - Calcul de dérivée
 - Utilités pour les probabilités
