@@ -11,6 +11,8 @@ Des ressouces en programmation en lien avec le lycée.
   - [PGCD](/option/pgcd.py)
 - **Spécialité: Mathématiques spécialité**
   - [Suites arithmétiques et géométriques](/specialite/suites.py)
+- **Algorithmes: des implémentations d'algorithmes, toujours en python**
+  - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expression mathématiques](/outils/parseur.py)
 - **Démos: des "démonstrations" de fonctionnalités utiles en python**
@@ -20,3 +22,10 @@ Des ressouces en programmation en lien avec le lycée.
 - Résolveur d'équations du second degré
 - Vecteurs et géométrie dans l'espace
 - Trouver les coefficients de Bezout d'un nombre premier
+- Kruskal
+- Tri topologique
+- Tri
+- Huffman coding
+- Algorithme de tri
+- Edit distance
+- Union find
