@@ -77,6 +77,8 @@ Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pa
 15. Lattice Paths
 16. Power Digit Sum
 17. Number Letter Counts
+18. Maximum Path Sum I
+19. Counting Sundays
 
 ## TODO
 
