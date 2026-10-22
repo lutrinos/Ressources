@@ -33,6 +33,7 @@ py clean.py
   - [Distance de Levenshtein entre deux mots](/algorithms/levenshtein.py)
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expressions mathématiques](/outils/parseur.py)
+  - [Fonctions liées aux statistiques](/outils/statistiques.py)
 - **Démos: le reste !!**
   - [Calcul de racine carrée (approximation)](/demos/racine.py)
   - [Calcule du sinus d'un angle](/demos/sinus.py)
@@ -50,7 +51,6 @@ py clean.py
 - Union find
 - Calcul de dérivée
 - Utilités pour les probabilités
-- Utilités pour les statistiques
 - Calculs de logarithmes
 - Code Morse + alphabet phonétique de l'OTAN
 - Chiffrement César
