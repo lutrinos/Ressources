@@ -52,3 +52,8 @@ py clean.py
 - Utilités pour les probabilités
 - Utilités pour les statistiques
 - Calculs de logarithmes
+- Code Morse + alphabet phonétique de l'OTAN
+- Chiffrement César
+- Conversion d'une base à une autre
+- Solveur du jeux "Le compte est bon"
+- Chiffrement RSA
