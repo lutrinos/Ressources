@@ -55,6 +55,13 @@ py clean.py
   - [Traducteur de code Morse](/demos/morse.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
   - [Dépassement d'entier](/demos/overflow.c)
+  - [Rendu 3D de fonctions de R^3 dans R](./demos/3d_graphics.js) (la troisième dimension est la dépendance au temps) et [visualisation](https://www.khanacademy.org/computer-programming/3d-graphics-f-r3-r/5369745620975616)
+  - [Interférences de deux sources cohérentes](/demos/interferences.js) et [visualisation](https://www.khanacademy.org/computer-programming/interfrences/6432342133030912)
+  - [OPPH](./demos/opph.js)
+  - [Onde 1D](./demos/onde_1d.js) et [visualisation](https://www.khanacademy.org/computer-programming/onde-1d/5778482964054016)
+  - [Voitures autonomes apprenant à conduire](https://www.khanacademy.org/computer-programming/self-driving-cars/5424976789356544) avec des réseaux de neurones et un algorithme génétique, et [simulation](https://www.khanacademy.org/computer-programming/self-driving-cars/5424976789356544)
+  - [Descente de gradient](./demos/descente_gradient.js) et [visualisation](https://www.khanacademy.org/computer-programming/descente-de-gradient/5011044381605888)
+
 
 ## Project Euler
 
