@@ -2,6 +2,8 @@
 Des ressouces en programmation en lien avec le lycée.
 
 ## Commandes
+- Cloner le dépôt de code: `git clone https://github.com/ntillier/Ressources`
+- Installer les dépendences (pytest): `pip install -r requirements.txt`
 - Exécuter les tests: `pytest`
 - Nettoyer le répertoire: `py clean.py`
 
@@ -21,10 +23,9 @@ Des ressouces en programmation en lien avec le lycée.
 - **Démos: des "démonstrations" de fonctionnalités utiles en python**
   - [Surcharge d'opérateurs](/demos/operators.py)
 
-# TODO¡
+# TODO
 - Kruskal
 - Tri topologique
-- Tri
 - Huffman coding
 - Algorithme de tri
 - Edit distance
