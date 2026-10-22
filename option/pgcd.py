@@ -1,5 +1,5 @@
 
-# Implémentation de l'algorithme d'euclide
+# Implémentation de l'algorithme d'Euclide
 def pgcd(a, b):
   a, b = (a, b) if a > b else (b, a)
 
