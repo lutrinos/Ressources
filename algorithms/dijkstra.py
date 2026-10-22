@@ -22,7 +22,7 @@ def dijkstra(graph, depart, arrivee=None):
     if sommet == arrivee:
       break
 
-    for poids, adjacent in graph[sommet]:
+    for adjacent, poids in graph[sommet]:
       nouveau_poids = d + poids
       queue.put((nouveau_poids, adjacent))
 
