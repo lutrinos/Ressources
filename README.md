@@ -31,7 +31,7 @@ py clean.py
 - **Algorithmes: des implémentations d'algorithmes, toujours en python**
   - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
 - **Outils: Ressources diverses et variées**
-  - [Parseur d'expression mathématiques](/outils/parseur.py)
+  - [Parseur d'expressions mathématiques](/outils/parseur.py)
 - **Démos: le reste !!**
   - [Calcul de racine carrée (approximation)](/demos/racine.py)
   - [Calcule du sinus d'un angle](/demos/sinus.py)
