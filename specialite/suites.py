@@ -21,12 +21,3 @@ class Suite:
     elif self.type == GEOMETRIQUE:
       return self.premier_terme * pow(self.raison, n)
 
-geo = Suite(GEOMETRIQUE, premier_terme=10, raison=2)
-print(geo.terme(2))
-print(geo.somme(2))
-
-print("- - - - -")
-
-ari = Suite(ARITHMETIQUE, premier_terme=10, raison=2)
-print(ari.terme(2))
-print(ari.somme(2))
