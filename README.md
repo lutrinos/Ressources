@@ -31,6 +31,7 @@ py clean.py
 - **Algorithmes: des implémentations d'algorithmes, toujours en python**
   - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
   - [Distance de Levenshtein entre deux mots](/algorithms/levenshtein.py)
+  - [Recherche d'un arbre couvrant minimum - Kruskal](/algorithms/kruskal.py)
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expressions mathématiques](/outils/parseur.py)
   - [Fonctions liées aux statistiques](/outils/statistiques.py)
@@ -42,7 +43,6 @@ py clean.py
   - [Calcul de pi](/demos/pi.py)
   - [Structure Union-find](/demos/union_find.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
-
 
 # TODO
 - Kruskal
