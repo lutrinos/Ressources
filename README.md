@@ -32,8 +32,10 @@ py clean.py
   - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expression mathématiques](/outils/parseur.py)
-- **Démos: des "démonstrations" de fonctionnalités utiles en python**
-  - [Surcharge d'opérateurs](/demos/operators.py)
+- **Démos: le reste !!**
+  - [Surcharge d'opérateurs en python](/demos/operators.py)
+  - [Suite de Syracuse](/demos/syracuse.py)
+
 
 # TODO
 - Kruskal
@@ -42,3 +44,6 @@ py clean.py
 - Algorithme de tri
 - Edit distance
 - Union find
+- Calcul de dérivée
+- Utilités pour les probabilités
+- Utilités pour les statistiques
