@@ -1,6 +1,6 @@
 import os, shutil
 
-dossiers = ["demos", "option", "outils", "specialite", "tests"]
+dossiers = ["algorithms", "demos", "option", "outils", "specialite", "tests"]
 
 def clean(repertoire):
   for fichier in os.listdir(repertoire):
