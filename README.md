@@ -14,12 +14,12 @@ pip install -r requirements.txt
 ```console
 pytest
 ```
-- Nettoyer le répertoire (des dossiers `__pycache__`)
+- Nettoyer le répertoire (les dossiers `__pycache__`)
 ```console
 py clean.py
 ```
 
-# Listes des catégories
+## Liste des catégories
 - **Option: Option Mathématiques expertes**
   - [Résolveur d'équations](/option/equation.py)
   - [PGCD](/option/pgcd.py)
@@ -30,12 +30,12 @@ py clean.py
   - [Calculs de vecteurs](/specialite/vecteurs.py)
 - **Algorithmes: des implémentations d'algorithmes, toujours en python**
   - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
-  - [Distance de Levenshtein entre deux mots](/algorithms/levenshtein.py)
+  - [Distance de d'édition entre deux mots - Levenshtein](/algorithms/levenshtein.py)
   - [Recherche d'un arbre couvrant minimum - Kruskal](/algorithms/kruskal.py)
 - **Outils: Ressources diverses et variées**
-  - [Parseur d'expressions mathématiques](/outils/parseur.py)
+  - [Parseur d'expressions mathématiques (à améliorer)](/outils/parseur.py)
   - [Fonctions liées aux statistiques](/outils/statistiques.py)
-- **Démos: le reste !!**
+- **Démos: le reste !**
   - [Calcul de racine carrée (approximation)](/demos/racine.py)
   - [Calcule du sinus d'un angle](/demos/sinus.py)
   - [Algorithme pour trouver les nombres premiers de 0 à n](/demos/premiers.py)
@@ -45,7 +45,7 @@ py clean.py
   - [Traducteur de code Morse](/demos/morse.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
-# TODO
+## TODO
 - Tri topologique
 - Huffman coding
 - Algorithme de tri
@@ -63,4 +63,5 @@ py clean.py
 - Implémentations de quelques problèmes intéressants des CG
 - Calcul d'une vitesse à partir de relevés de fréquences (effet Doppler)
 - Simulations de circuits électriques (avec dipôles RC)
+- Mécanique des fluides
 - Algorithme de Ford-Fulkerson (+ Busacker et Gowen éventuellement)
