@@ -58,7 +58,7 @@ py clean.py
 
 ## Project Euler
 
-Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pas nécessairement optmisée le plus possible, mais renvoient le résultat en un temps raisonnable.
+Quelques solutions au Project Euler réalisées par-ci par-là. Elles ne sont pas nécessairement optimisées le plus possible, mais renvoient le résultat en un temps raisonnable.
 
 1. Multiples of 3 or 5
 2. Even Fibonacci Numbers
