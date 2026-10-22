@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```console
 pytest
 ```
-- Nettoyer le répertoire
+- Nettoyer le répertoire (des dossiers `__pycache__`)
 ```console
 py clean.py
 ```
@@ -33,8 +33,9 @@ py clean.py
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expression mathématiques](/outils/parseur.py)
 - **Démos: le reste !!**
-  - [Surcharge d'opérateurs en python](/demos/operators.py)
+  - [Calcul de racinne carrée (approximation)](/demos/racine.py)
   - [Suite de Syracuse](/demos/syracuse.py)
+  - [Surcharge d'opérateurs en python](/demos/operators.py)
 
 
 # TODO
