@@ -11,6 +11,7 @@ Des ressouces en programmation en lien avec le lycée.
   - [PGCD](/option/pgcd.py)
 - **Spécialité: Mathématiques spécialité**
   - [Suites arithmétiques et géométriques](/specialite/suites.py)
+  - [Résolveur d'équations du second degré](/specialite/second_degre.py)
 - **Algorithmes: des implémentations d'algorithmes, toujours en python**
   - [Recherche du plus court chemin - Dijkstra](/algorithms/dijkstra.py)
 - **Outils: Ressources diverses et variées**
@@ -19,7 +20,6 @@ Des ressouces en programmation en lien avec le lycée.
   - [Surcharge d'opérateurs](/demos/operators.py)
 
 # TODO
-- Résolveur d'équations du second degré
 - Vecteurs et géométrie dans l'espace
 - Trouver les coefficients de Bezout d'un nombre premier
 - Kruskal
