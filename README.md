@@ -45,7 +45,6 @@ py clean.py
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
 # TODO
-- Kruskal
 - Tri topologique
 - Huffman coding
 - Algorithme de tri
