@@ -6,15 +6,15 @@ Des ressouces en programmation en lien avec le lycée.
 ```console
 git clone https://github.com/ntillier/Ressources
 ```
-- Installer les dépendences (pytest):
+- Installer les dépendences (pytest)
 ```console
 pip install -r requirements.txt
 ```
-- Exécuter les tests:
+- Exécuter les tests
 ```console
 pytest
 ```
-- Nettoyer le répertoire:
+- Nettoyer le répertoire
 ```console
 py clean.py
 ```
