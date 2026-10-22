@@ -8,3 +8,5 @@ Des ressouces en programmation en lien avec le lycée.
   - [Suites arithmétiques et géométriques](/specialite/suites.py)
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expression mathématiques](/outils/parseur.py)
+- **Démos: des "démonstrations" de fonctionnalités utiles en python**
+  - [Surcharge d'opérateurs](/demos/operators.py)
