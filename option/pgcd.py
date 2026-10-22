@@ -8,5 +8,3 @@ def pgcd(a, b):
 
   return pgcd(b, a % b)
 
-print(pgcd(1015, 716))
-print(pgcd(20, 5))
