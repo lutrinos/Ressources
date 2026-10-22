@@ -34,6 +34,7 @@ py clean.py
   - [Parseur d'expression mathématiques](/outils/parseur.py)
 - **Démos: le reste !!**
   - [Calcul de racinne carrée (approximation)](/demos/racine.py)
+  - [Algorithme pour trouver les nombres premiers de 0 à n](/demos/premiers.py)
   - [Suite de Syracuse](/demos/syracuse.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
