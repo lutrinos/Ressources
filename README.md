@@ -7,4 +7,4 @@ Des ressouces en programmation en lien avec le lycée.
 - **Spécialité: Mathématiques spécialité**
   - [Suites arithmétiques et géométriques](/specialite/suites.py)
 - **Outils: Ressources diverses et variées**
- - [Parseur d'expression mathématiques](/outils/parseur.py)
+  - [Parseur d'expression mathématiques](/outils/parseur.py)
