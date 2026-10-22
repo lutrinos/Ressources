@@ -40,6 +40,7 @@ py clean.py
   - [Algorithme pour trouver les nombres premiers de 0 à n](/demos/premiers.py)
   - [Suite de Syracuse](/demos/syracuse.py)
   - [Calcul de pi](/demos/pi.py)
+  - [Structure Union-find](/demos/union_find.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
 
@@ -48,7 +49,6 @@ py clean.py
 - Tri topologique
 - Huffman coding
 - Algorithme de tri
-- Union find
 - Calcul de dérivée
 - Utilités pour les probabilités
 - Calculs de logarithmes
