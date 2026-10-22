@@ -7,7 +7,7 @@ Quelques ressources personnelles. Sont inclus des programmes publiés sur la [kh
 - Cloner le dépôt de code
 
 ```console
-git clone https://github.com/ntillier/Ressources
+git clone https://github.com/lutrinos/Ressources
 ```
 
 - Installer les dépendences (pytest)
