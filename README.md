@@ -2,10 +2,22 @@
 Des ressouces en programmation en lien avec le lycée.
 
 ## Commandes
-- Cloner le dépôt de code: `git clone https://github.com/ntillier/Ressources`
-- Installer les dépendences (pytest): `pip install -r requirements.txt`
-- Exécuter les tests: `pytest`
-- Nettoyer le répertoire: `py clean.py`
+- Cloner le dépôt de code
+```console
+git clone https://github.com/ntillier/Ressources
+```
+- Installer les dépendences (pytest):
+```console
+pip install -r requirements.txt
+```
+- Exécuter les tests:
+```console
+pytest
+```
+- Nettoyer le répertoire:
+```console
+py clean.py
+```
 
 # Listes des catégories
 - **Option: Option Mathématiques expertes**
