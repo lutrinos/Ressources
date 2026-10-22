@@ -20,3 +20,4 @@
 19. Counting Sundays ([C](./p19.c) | [OCaml](./p19.ml))
 20. Factorial Digit Sum ([C](./p20.c) | [OCaml](./p20.ml))
 21. Amicable Numbers ([C](./p21.c) | [OCaml](./p21.ml))
+22. Names Scores ([C](./p22.c) | [OCaml](./p22.ml))
