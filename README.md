@@ -42,6 +42,7 @@ py clean.py
   - [Suite de Syracuse](/demos/syracuse.py)
   - [Calcul de pi](/demos/pi.py)
   - [Structure Union-find](/demos/union_find.py)
+  - [Traducteur de code Morse](/demos/morse.py)
   - [Surcharge d'opérateurs en python](/demos/operators.py)
 
 # TODO
@@ -51,7 +52,7 @@ py clean.py
 - Calcul de dérivée
 - Utilités pour les probabilités
 - Calculs de logarithmes
-- Code Morse + alphabet phonétique de l'OTAN
+- Alphabet phonétique de l'OTAN
 - Chiffrement César
 - Conversion d'une base à une autre
 - Solveur du jeux "Le compte est bon"
