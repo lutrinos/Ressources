@@ -67,6 +67,8 @@ Quelques solutions au Project Euler réalisées par-ci par-là
 5. Smallest Multiple
 6. Sum Square Difference
 7. 10 001st Prime
+8. Largest Product in a Series
+9. Special Pythagorean Triplet
 
 ## TODO
 
