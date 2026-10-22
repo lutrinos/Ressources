@@ -1,3 +1,4 @@
+import re
 
 # Un algorithme pour trouver tous les nombres premiers de 0 à n, uniquement avec des additions
 # Inspiré par le crible d'Ératosthène
@@ -36,6 +37,11 @@ def valider(n):
     if n % i == 0:
       return False
   return True
+
+# Source: https://stackoverflow.com/questions/3296050/how-does-this-regex-find-primes
+def valider2():
+  expression = re.compile("/^1?$|^(11+?)\1+$/")
+  return lambda x: not expression.match("1" * x)
 
 nombres = premiers(1_000_000)
 print(', '.join(str(i) for i in nombres))
