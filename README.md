@@ -33,7 +33,7 @@ py clean.py
 - **Outils: Ressources diverses et variées**
   - [Parseur d'expression mathématiques](/outils/parseur.py)
 - **Démos: le reste !!**
-  - [Calcul de racinne carrée (approximation)](/demos/racine.py)
+  - [Calcul de racine carrée (approximation)](/demos/racine.py)
   - [Calcule du sinus d'un angle](/demos/sinus.py)
   - [Algorithme pour trouver les nombres premiers de 0 à n](/demos/premiers.py)
   - [Suite de Syracuse](/demos/syracuse.py)
